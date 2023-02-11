@@ -16,24 +16,23 @@
     "commands": {
         "next": {
             "description": "Next track",
-            "suggested_key": "Alt+Period"
+            "suggested_key": "Alt+Shift+D",
+            "global": true
         },
         "play-pause": {
             "description": "Play/pause",
-            "suggested_key": "Alt+P"
+            "suggested_key": "Alt+Shift+S",
+            "global": true
         },
         "previous": {
             "description": "Previous track",
-            "suggested_key": "Alt+Comma"
-        },
-        "shuffle": {
-            "description": "Shuffle"
-        },
-        "repeat": {
-            "description": "Repeat"
+            "suggested_key": "Alt+Shift+A",
+            "global": true
         },
         "track-add": {
-            "description": "Save track"
+            "description": "Save track",
+            "suggested_key": "Alt+Shift+X",
+            "global": true
         }
     },
     "permissions": [
