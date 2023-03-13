@@ -14,24 +14,32 @@
         ]
     },
     "commands": {
-        "next": {
-            "description": "Next track",
-            "suggested_key": "Alt+Shift+D",
-            "global": true
-        },
-        "play-pause": {
-            "description": "Play/pause",
-            "suggested_key": "Alt+Shift+S",
-            "global": true
-        },
-        "previous": {
+        "a-previous": {
             "description": "Previous track",
             "suggested_key": "Alt+Shift+A",
             "global": true
         },
-        "track-add": {
-            "description": "Save track",
+        "b-play-pause": {
+            "description": "Play/pause",
+            "suggested_key": "Alt+Shift+S",
+            "global": true
+        },
+        "c-next": {
+            "description": "Next track",
+            "suggested_key": "Alt+Shift+D",
+            "global": true
+        },
+        "d-like-song": {
+            "description": "Like song",
             "suggested_key": "Alt+Shift+X",
+            "global": true
+        },
+        "e-is-song-liked": {
+            "description": "Is song liked?",
+            "global": true
+        },
+        "f-shuffle": {
+            "description": "Shuffle",
             "global": true
         }
     },
